@@ -1,4 +1,4 @@
-@Library("test-library@master") _
+@Library("test-library") _
 
 // This shows a simple build wrapper example, using the AnsiColor plugin.
 node {
