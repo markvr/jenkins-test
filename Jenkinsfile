@@ -4,7 +4,7 @@
 node {
     stage("run") {
         // extra = load("extra.groovy")
-        var foo = new com.markvr.Foo()
+        def foo = new com.markvr.Foo()
         println("Say: " + foo.bar())
     }
 }
