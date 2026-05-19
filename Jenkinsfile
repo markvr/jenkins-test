@@ -2,7 +2,8 @@
 
 node {
     stage("run") {
-        print("Started")
+        print("Started,sleeping for 30sec")
+        sleep(30)
         def foo = new com.markvr.Foo()
         println("Say: " + foo.bar())
     }
