@@ -8,5 +8,3 @@ node {
         println("Say: " + foo.bar())
     }
 }
-
-
